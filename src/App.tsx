@@ -2,7 +2,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import { useAppDispatch, useAppSelector } from "./app/hooks";
-import { amountAdded, incremented } from "./feature/counter/counter-slice";
+import { amountAdded } from "./feature/counter/counter-slice";
 import { useFetchBreedQuery } from "./feature/dogs/dogs-api-slice";
 import { useState } from "react";
 
